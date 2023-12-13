@@ -2,10 +2,31 @@
   display: inline-flex;
   height: fit-content;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
   border-radius: 16px;
 
   padding: 2px 8px;
+
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+  }
+  .dot--green {
+    background-color: var(--color-green-500, #12b75f);
+  }
+  .dot--red {
+    background-color: var(--color-red-500, #f04738);
+  }
+  .dot--orange {
+    background-color: var(--color-alert-orange, #f79009);
+  }
+  .dot--blue {
+    background-color: var(--color-blue-700, #097ed3);
+  }
+  .dot--black {
+    background-color: var(--color-gray-900, #1f2328);
+  }
 }
 .info-badge--medium {
   padding: 2px 10px;
