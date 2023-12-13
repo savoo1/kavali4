@@ -92,6 +92,7 @@ ul {
   --color-orange-50: #fffaeb;
   --color-orange-100: #fef0c7;
   --color-orange-300: #fec84b;
+  --color-alert-orange: #f79009;
   --color-orange-700: #b54708;
   --color-green-25: #f6fef9;
   --color-green-50: #ecfdf3;
@@ -1452,9 +1453,29 @@ input[type=checkbox]:checked + .checkbox-box::after {
   height: -moz-fit-content;
   height: fit-content;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
   border-radius: 16px;
   padding: 2px 8px;
+}
+.info-badge .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+}
+.info-badge .dot--green {
+  background-color: var(--color-green-500, #12b75f);
+}
+.info-badge .dot--red {
+  background-color: var(--color-red-500, #f04738);
+}
+.info-badge .dot--orange {
+  background-color: var(--color-alert-orange, #f79009);
+}
+.info-badge .dot--blue {
+  background-color: var(--color-blue-700, #097ed3);
+}
+.info-badge .dot--black {
+  background-color: var(--color-gray-900, #1f2328);
 }
 
 .info-badge--medium {
