@@ -1,0 +1,182 @@
+:root {
+  --gray-25: #fcfcfd;
+  --color-gray-50: #f9fafa;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #ebedef;
+  --color-gray-300: #d9dbdd;
+  --color-gray-400: #a9acb2;
+  --color-gray-600: #565b61;
+  --color-gray-700: #484c51;
+  --color-gray-800: #2d3239;
+  --color-gray-900: #1f2328;
+
+  --blue-light-50: #f0f9ff;
+  --blue-light-700: #026aa2;
+
+  --color-blue-25: #f5fbff;
+  --color-blue-50: #e5f4ff;
+  --color-blue-300: #85ccff;
+  --color-blue-400: #52b6ff;
+  --color-blue-500: #0094ff;
+  --color-blue-600: #058beb;
+  --color-blue-700: #097ed3;
+
+  --color-yellow-50: #fff9e6;
+  --color-yellow-100: #fef2cd;
+  --color-yellow-400: #fcd14f;
+  --color-yellow-500: #fcc72c;
+  --color-yellow-600: #cb9903;
+
+  --color-orange-25: #fffcf5;
+  --color-orange-50: #fffaeb;
+  --color-orange-100: #fef0c7;
+  --color-orange-300: #fec84b;
+  --color-orange-700: #b54708;
+
+  --color-green-25: #f6fef9;
+  --color-green-50: #ecfdf3;
+  --color-green-100: #d1fadf;
+  --color-green-300: #6ce9a6;
+  --color-green-500: #12b75f;
+  --color-green-600: #039855;
+  --color-green-700: #027a48;
+
+  --color-red-50: #fef3f2;
+  --color-red-500: #f04738;
+  --color-red-700: #b42318;
+
+  --color-base-white: #fff;
+
+  // var margin
+  --margin-16: 16px;
+  --margin-12: 12px;
+  --margin-8: 8px;
+  // var margin end
+
+  // var padding
+  --padding-4: 4px;
+  --padding-8: 8px;
+  --padding-12: 12px;
+  --padding-16: 16px;
+  --padding-20: 20px;
+  --padding-24: 24px;
+  --padding-32: 32px;
+  --padding-36: 36px;
+  --padding-40: 40px;
+  --padding-48: 48px;
+  --padding-56: 56px;
+  // var padding end
+
+  // var radius
+  --radius-4: 4px;
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-80: 80px;
+  // var radius end
+
+  // var spacing
+  --spacing-2: 2px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  // var spacing end
+}
+
+.margin-6 {
+  margin-top: 6px;
+}
+.margin-40 {
+  margin-top: 40px;
+}
+.margin-t-16 {
+  margin-top: 16px;
+}
+.margin-t-24 {
+  margin-top: 24px;
+}
+.margin-t-30 {
+  margin-top: 30px;
+}
+
+.margin-b-1 {
+  margin-bottom: 1px;
+}
+.margin-b-2 {
+  margin-bottom: 2px;
+}
+.margin-b-3 {
+  margin-bottom: 3px;
+}
+.margin-b-4 {
+  margin-bottom: 4px;
+}
+.margin-b-5 {
+  margin-bottom: 5px;
+}
+.margin-b-6 {
+  margin-bottom: 6px;
+}
+.margin-b-7 {
+  margin-bottom: 7px;
+}
+.margin-b-8 {
+  margin-bottom: 8px;
+}
+.margin-b-9 {
+  margin-bottom: 9px;
+}
+.margin-b-10 {
+  margin-bottom: 10px;
+}
+.margin-b-11 {
+  margin-bottom: 11px;
+}
+.margin-b-12 {
+  margin-bottom: 12px;
+}
+.margin-b-13 {
+  margin-bottom: 13px;
+}
+.margin-b-14 {
+  margin-bottom: 14px;
+}
+.margin-b-15 {
+  margin-bottom: 15px;
+}
+.margin-b-16 {
+  margin-bottom: 16px;
+}
+.margin-b-17 {
+  margin-bottom: 17px;
+}
+.margin-b-18 {
+  margin-bottom: 18px;
+}
+.margin-b-19 {
+  margin-bottom: 19px;
+}
+.margin-b-20 {
+  margin-bottom: 20px;
+}
+.margin-b-21 {
+  margin-bottom: 21px;
+}
+.margin-b-22 {
+  margin-bottom: 22px;
+}
+.margin-b-23 {
+  margin-bottom: 23px;
+}
+.margin-b-24 {
+  margin-bottom: 24px;
+}
+.margin-b-30 {
+  margin-bottom: 30px;
+}
+.margin-b-40 {
+  margin-bottom: 40px;
+}

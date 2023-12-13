@@ -1,0 +1,17 @@
+.refresh-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 56px;
+  max-height: 56px;
+
+  padding: var(--padding-14, 14px);
+
+  border-radius: 28px;
+  border: 10px solid var(--color-gray-50, #f9fafa);
+  background: var(--color-gray-100, #f3f4f6);
+  svg {
+    flex-shrink: 0;
+  }
+}

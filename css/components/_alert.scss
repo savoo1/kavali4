@@ -1,0 +1,24 @@
+.alert {
+  display: flex;
+  padding: 16px;
+  gap: 11px;
+
+  border-radius: var(--8px, 8px);
+  svg {
+    flex-shrink: 0;
+  }
+}
+.alert--success {
+  border: 1px solid var(--color-green-300, #6ce9a6);
+  background: var(--color-green-25, #f6fef9);
+  p {
+    color: var(--color-green-700, #027a48);
+  }
+}
+.alert--warning {
+  border: 1px solid var(--color-orange-300, #fec84b);
+  background: var(--color-orange-25, #fffcf5);
+  p {
+    color: var(--color-orange-700, #b54708);
+  }
+}

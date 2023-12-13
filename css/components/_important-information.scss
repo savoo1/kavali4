@@ -1,0 +1,94 @@
+.important-information {
+  max-width: 1300px;
+  overflow: hidden;
+  border-radius: var(--radius-8, 8px);
+
+  border: 1px solid var(--color-yellow-500, #fcc72c);
+  box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03),
+    0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+  .important-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: var(--padding-12, 12px) var(--padding-20, 20px);
+
+    background: var(--color-yellow-50, #fff9e6);
+    p {
+      color: var(--color-yellow-600, #cb9903);
+    }
+  }
+  .important-content {
+    display: flex;
+
+    padding: 20px 0px;
+
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  }
+  .important-box {
+    display: flex;
+    align-items: center;
+
+    padding: var(--padding-16, 16px) var(--padding-20, 20px);
+    gap: var(--spacing-16, 16px);
+
+    border-right: 1px solid var(--color-gray-200, #ebedef);
+
+    &:last-child {
+      border-right: unset;
+    }
+    .important-content-text {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-4, 4px);
+      max-width: 337px;
+      height: 100%;
+    }
+    .important-box-left {
+      position: relative;
+      flex-shrink: 0;
+      width: 40px;
+      height: 100%;
+      .featured-icon {
+        position: absolute;
+        top: 14px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .important-information .important-content {
+    padding: unset;
+    flex-direction: column;
+    .important-box {
+      border-right: unset;
+      border-bottom: 1px solid var(--color-gray-200, #ebedef);
+      &:last-child {
+        border-bottom: unset;
+      }
+      .important-content-text {
+        max-width: 100%;
+      }
+      .important-box-left .featured-icon {
+        position: unset;
+      }
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .important-information {
+    .important-box {
+      gap: 12px;
+      padding: 16px 12px;
+    }
+  }
+  .important-content-text {
+    p:first-child {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px; /* 142.857% */
+      letter-spacing: 0.07px;
+    }
+  }
+}

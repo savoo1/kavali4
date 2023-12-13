@@ -1,0 +1,51 @@
+.info-badge {
+  display: inline-flex;
+  height: fit-content;
+  align-items: center;
+  gap: 4px;
+  border-radius: 16px;
+
+  padding: 2px 8px;
+}
+.info-badge--medium {
+  padding: 2px 10px;
+}
+.info-badge--large {
+  padding: 4px 12px;
+}
+.info-badge--green {
+  background: var(--color-green-50, #ecfdf3);
+  p {
+    color: var(--color-green-700, #027a48);
+  }
+}
+.info-badge--blue {
+  background: var(--blue-light-50, #f0f9ff);
+  p {
+    color: var(--blue-light-700, #026aa2);
+  }
+}
+.info-badge--light-blue {
+  background: var(--color-blue-50, #e5f4ff);
+  p {
+    color: var(--color-blue-500, #0094ff);
+  }
+}
+.info-badge--orange {
+  background: var(--color-orange-50, #fffaeb);
+  p {
+    color: var(--color-orange-700, #b54708);
+  }
+}
+.info-badge--red {
+  background: var(--color-red-50, #fef3f2);
+  p {
+    color: var(--color-red-700, #b42318);
+  }
+}
+.info-badge--gray {
+  background: var(--color-gray-100, #f3f4f6);
+  p {
+    color: var(--color-gray-700, #484c51);
+  }
+}
