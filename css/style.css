@@ -937,11 +937,11 @@ input[type=radio]:checked + .radio-input-circle::after {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: var(--color-blue-700, #097ED3);
+  color: var(--color-blue-700, #097ed3);
   z-index: 9;
 }
 .primary-input .right-option.disabled {
-  color: var(--color-gray-300, #D9DBDD);
+  color: var(--color-gray-300, #d9dbdd);
 }
 .primary-input .number-of-items {
   border-radius: var(--radius-3-xl, 80px);

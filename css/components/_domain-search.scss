@@ -1,0 +1,54 @@
+// domain seearch
+.domain-search-input {
+  border-radius: 8px 8px 0px 0px;
+  overflow: hidden;
+  .domain-url {
+    height: 100%;
+  }
+  &:hover {
+    background-color: var(--gray-25, #fcfcfd);
+    .domain-search-placeholder span {
+      background-color: var(--gray-25, #fcfcfd);
+      transition: all 0s ease-in;
+    }
+  }
+}
+.domain-search-input .domain-input {
+  padding-left: 80px;
+  padding-right: 235px;
+  min-height: 76px;
+
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid var(--color-gray-300, #d9dbdd);
+}
+.domain-search-input .domain-search-placeholder span {
+  left: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.domain-search-input .domain-close {
+  right: 210px;
+  cursor: pointer;
+  //   z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.domain-search-button {
+  position: absolute;
+  cursor: pointer;
+  //   z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  max-width: 174px;
+  max-height: 40px;
+  padding: var(--padding-8, 8px) var(--padding-8, 12px);
+  border-radius: 4px;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.16px;
+}
