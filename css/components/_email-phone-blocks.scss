@@ -181,13 +181,13 @@
 }
 
 @media screen and (max-width: 350px) {
-  .block-text {
+  .phone-block-checkbox .block-text {
     font-size: 12px;
   }
-  .text-sm--medium {
+  .phone-block-checkbox .text-sm--medium {
     font-size: 12px;
   }
-  .primary-input {
+  .phone-block-checkbox .primary-input {
     input {
       font-size: 12px;
     }
