@@ -8,6 +8,11 @@
     flex-shrink: 0;
   }
 }
+.alert-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .alert--success {
   border: 1px solid var(--color-green-300, #6ce9a6);
   background: var(--color-green-25, #f6fef9);
@@ -20,5 +25,13 @@
   background: var(--color-orange-25, #fffcf5);
   p {
     color: var(--color-orange-700, #b54708);
+  }
+}
+.alert--blue {
+  border-radius: 12px;
+  border: 1px solid var(--color-blue-300, #85ccff);
+  background: var(--color-blue-25, #f5fbff);
+  p {
+    color: var(--color-blue-600, #058beb);
   }
 }

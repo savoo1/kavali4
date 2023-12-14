@@ -1,6 +1,18 @@
-.standard-link{
-  color: var(--color-blue-700, #097ED3);
+.standard-link {
+  color: var(--color-blue-700, #097ed3);
   display: inline-flex;
   align-items: center;
   gap: 8px;
+}
+.primary-link {
+  display: flex;
+  align-items: center;
+  color: var(--color-blue-700, #097ed3);
+
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.16px;
 }

@@ -8,7 +8,7 @@
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.07px;
 
-  border-radius: 8px;
+  border-radius: 4px;
   border: 1px solid var(--color-yellow-500, #fcc72c);
   background: var(--color-yellow-500, #fcc72c);
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
@@ -82,7 +82,7 @@
   padding: 6px 12px;
 }
 .secondary-button--disabled {
-  border-radius: 8px;
+  border-radius: 4px;
   color: var(--color-gray-300, #d9dbdd);
   border: 1px solid var(--color-gray-200, #ebedef);
   background: var(--color-base-white, #fff);
@@ -91,7 +91,7 @@
   pointer-events: none;
 }
 .secondary-button--gray {
-  border-radius: 8px;
+  border-radius: 4px;
 
   color: var(--color-gray-900, #1f2328);
   border: 1px solid var(--color-gray-300, #d9dbdd);
@@ -134,7 +134,7 @@
 }
 
 .secondary-button--babyBlue {
-  border-radius: 8px;
+  border-radius: 4px;
   border: 1px solid var(--color-blue-50, #e5f4ff);
   background: var(--color-blue-50, #e5f4ff);
   color: var(--color-blue-700, #097ed3);
@@ -146,7 +146,7 @@
 }
 
 .secondary-button--red {
-  border-radius: 8px;
+  border-radius: 4px;
   color: var(--color-red-700, #b42318);
   border: 1px solid var(--color-red-300, #fda29b);
   background: var(--color-base-white, #fff);

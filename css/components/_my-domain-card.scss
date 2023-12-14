@@ -1,0 +1,71 @@
+.my-domain-card {
+  border: 1px solid var(--color-gray-200, #ebedef);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.my-domain-card-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  padding: 20px 140px 20px 20px;
+  gap: 8px;
+  min-height: 128px;
+
+  background: var(--color-base-white, #fff);
+  > p {
+    span {
+      color: var(--color-blue-400, #52b6ff);
+    }
+  }
+}
+.my-domain-card-button {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.domain-button--blue {
+  color: var(--color-blue-500, #0094ff);
+  border: 1px solid var(--color-blue-50, #e5f4ff);
+  background: #fff;
+}
+.badge-holder {
+  display: flex;
+  padding: var(--padding-4, 4px) 0px var(--padding-8, 8px) 0px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px 8px;
+  flex-wrap: wrap;
+}
+.configuration-content {
+  display: flex;
+
+  border-top: 1px solid var(--color-gray-300, #d9dbdd);
+  padding: 20px;
+}
+.domain-alert {
+  flex-direction: column;
+  width: 100%;
+}
+.domain-alert-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media screen and (max-width: 500px) {
+  .my-domain-card-content {
+    padding: 20px;
+  }
+  .my-domain-card-button {
+    position: relative;
+    right: unset;
+    top: unset;
+    transform: translateY(0);
+    max-width: 103px;
+    svg {
+      flex-shrink: 0;
+    }
+  }
+}
