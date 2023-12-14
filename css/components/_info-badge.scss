@@ -64,6 +64,12 @@
     color: var(--color-red-700, #b42318);
   }
 }
+.info-badge--light-red {
+  background: var(--colors-background-error, #FFFBFA);
+  p {
+    color: var(--colors-text-feedback-error-dark, #B42318);
+  }
+}
 .info-badge--gray {
   background: var(--color-gray-100, #f3f4f6);
   p {
