@@ -3314,6 +3314,11 @@ input[type=checkbox]:checked + .checkbox-box::after {
     font-size: 14px;
   }
 }
+.domain-table-container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
 .my-domain-card {
   border: 1px solid var(--color-gray-200, #ebedef);
   border-radius: 8px;
