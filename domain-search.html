@@ -20,38 +20,49 @@
   </head>
   <body>
     <div style="padding: 20px; max-width: 1300px">
-      <form class="primary-input primary-input-domain domain-search-input">
-        <div class="domain-url tag-left text-md--regular">https://</div>
-        <input class="domain-input" type="text" placeholder=" " value="" />
-        <div class="on-focus domain-search-placeholder">
-          <span
-            >Search for your company name
-            <span class="extended-span">or desired domain name</span>
-          </span>
-        </div>
-        <div class="right-icon domain-close">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
+      <label
+        for="domain-input-id"
+        class="primary-input primary-input-domain domain-search-input"
+      >
+        <form>
+          <div class="domain-url tag-left text-md--regular">https://</div>
+          <input
+            id="domain-input-id"
+            class="domain-input"
+            type="text"
+            placeholder=" "
+            value=""
+          />
+          <div class="on-focus domain-search-placeholder">
+            <span
+              >Search for your company name
+              <span class="extended-span">or desired domain name</span>
+            </span>
+          </div>
+          <div class="right-icon domain-close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <path
+                d="M15 5L5 15M5 5L15 15"
+                stroke="#565B61"
+                stroke-width="1.66667"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <button
+            class="domain-search-button secondary-button secondary-button--babyBlue"
           >
-            <path
-              d="M15 5L5 15M5 5L15 15"
-              stroke="#565B61"
-              stroke-width="1.66667"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </div>
-        <button
-          class="domain-search-button secondary-button secondary-button--babyBlue"
-        >
-          Search domain
-        </button>
-      </form>
+            Search domain
+          </button>
+        </form>
+      </label>
     </div>
   </body>
 </html>
