@@ -3186,13 +3186,7 @@ input[type=checkbox]:checked + .checkbox-box::after {
 }
 .domain-search-input .domain-url {
   line-height: 75px;
-}
-.domain-search-input:hover {
-  background-color: var(--gray-25, #fcfcfd);
-}
-.domain-search-input:hover .domain-search-placeholder span {
-  background-color: var(--gray-25, #fcfcfd);
-  transition: all 0s ease-in;
+  z-index: 3;
 }
 
 .domain-search-input .domain-input {
@@ -3203,11 +3197,23 @@ input[type=checkbox]:checked + .checkbox-box::after {
   border: 1px solid transparent;
   border-bottom: 1px solid var(--color-gray-300, #d9dbdd);
   color: var(--color-gray-900, #1f2328);
+  transition: all 0.25s ease-in;
+}
+.domain-search-input .domain-input:hover {
+  background-color: var(--gray-25, #fcfcfd);
+  transition: all 0.25s ease-in;
+}
+.domain-search-input .domain-input:hover ~ .domain-search-placeholder span {
+  transition: all 0.25s ease-in;
+  background-color: var(--gray-25, #fcfcfd);
 }
 
 .domain-search-input .domain-search-placeholder span {
   left: 80px;
   top: 16px;
+  z-index: 2;
+  cursor: text;
+  transition: all 0.25s ease-in;
 }
 .domain-search-input .domain-search-placeholder span .extended-span {
   top: unset;
