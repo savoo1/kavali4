@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-
   padding: 20px 140px 20px 20px;
   gap: 8px;
   min-height: 128px;
@@ -19,11 +18,16 @@
     }
   }
 }
-.my-domain-card-button {
+.padding-right-two-buttons {
+  padding: 20px 180px 20px 20px;
+}
+.right-buttons-domain-card {
   position: absolute;
   right: 20px;
   top: 50%;
   transform: translateY(-50%);
+  display: flex;
+  gap: 8px;
 }
 .domain-button--blue {
   color: var(--color-blue-500, #0094ff);
@@ -40,9 +44,15 @@
 }
 .configuration-content {
   display: flex;
+  flex-direction: column;
 
   border-top: 1px solid var(--color-gray-300, #d9dbdd);
   padding: 20px;
+}
+.get-custom-domain {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 .domain-alert {
   flex-direction: column;
@@ -53,19 +63,120 @@
   flex-direction: column;
   gap: 8px;
 }
+.domain-card-server-name .server-name {
+  padding: 8px 95px 8px 12px;
+  &:disabled {
+    color: var(--color-gray-900, #1f2328);
+  }
+}
+.server-tag-right {
+  width: 94px;
+  color: var(--color-gray-600, #565b61);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  line-height: 44px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  z-index: 2;
 
+  .my-domain-card-button {
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 8px 8px 0px;
+    border: unset;
+    border-left: 1px solid var(--color-gray-300, #d9dbdd);
+  }
+}
+.domain-card-server-name .server-name-placeholder {
+  span {
+    left: 8px;
+  }
+}
+.my-domain-servers {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  > p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+.server-name-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.close-button-domain {
+  max-width: 174px;
+}
+.domain-bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+.domain-buttons-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.redirected-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--Border-borderSecondary, #f4f4f5);
+}
 @media screen and (max-width: 500px) {
   .my-domain-card-content {
     padding: 20px;
   }
-  .my-domain-card-button {
+  .right-buttons-domain-card {
     position: relative;
     right: unset;
     top: unset;
     transform: translateY(0);
+  }
+  .my-domain-card-button {
     max-width: 103px;
     svg {
       flex-shrink: 0;
     }
+  }
+  .disable-server {
+    span {
+      display: none;
+    }
+  }
+  .refresh-server {
+    span {
+      display: none;
+    }
+  }
+  .close-button-domain {
+    max-width: 105px;
+  }
+  .domain-button--blue {
+    background: var(--color-blue-50, #e5f4ff);
+  }
+}
+@media screen and (max-width: 350px) {
+  .domain-card-server-name .server-name {
+    font-size: 14px;
+  }
+  .server-tag-right {
+    width: 75px;
+  }
+  .server-tag-right .my-domain-card-button {
+    font-size: 14px;
+    gap: 5px;
+  }
+  .domain-card-server-name .server-name {
+    padding: 8px 74px 8px 12px;
   }
 }
